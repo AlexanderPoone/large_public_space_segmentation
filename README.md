@@ -1,6 +1,6 @@
 Individial Project
 
-The objective of this project is to put oriented bounding boxes on vehicles in a real street LiDAR scene in Hong Kong. The detector should be invariant to partial occlusion, deformation, and noises, and varying degrees of point density - all of which are ubiquitous caveats in LiDAR clouds.
+The objective of this project is to put oriented bounding boxes on vehicles in a real street LiDAR scene in Hong Kong. The detector should be invariant to partial occlusion, deformation, noises, and varying degrees of point density - all of which are ubiquitous caveats in LiDAR clouds.
 # Auxiliary software
 * MeshLab
 * CloudCompare
