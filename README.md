@@ -4,7 +4,7 @@ The objective of this project is to put oriented bounding boxes on vehicles in a
 * MeshLab
 * CloudCompare
 * lastile
-* [LabelCloud](https://github.com/ch-sa/labelCloud)
+* [labelCloud](https://github.com/ch-sa/labelCloud) *for labelling vehicles*
 * [PyTorch-Geometric](https://github.com/pyg-team/pytorch_geometric)
 
 # Auxiliary hardware
