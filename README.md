@@ -2,6 +2,8 @@ Individial Project
 
 The objective of this project is to put oriented bounding boxes on vehicles in a real street LiDAR scene in Hong Kong. The detector should be invariant to partial occlusion, deformation, noises, and varying degrees of point density - all of which are ubiquitous caveats in LiDAR clouds.
 
+The dataset can be browsed **[here](https://dord.mynetgear.com:5001/static/potree/index.html)**. Click the **'Colour by classification'** button on the left to see the ground truth segmentation.
+
 In case you are wondering, I made the dataset myself. The points have only INTENSITY values and no RGB values.
 # Auxiliary software
 * MeshLab
