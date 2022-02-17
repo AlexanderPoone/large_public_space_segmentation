@@ -8,7 +8,7 @@ In case you are wondering, I made the dataset myself. The points have only INTEN
 * CloudCompare
 * lastile
 * [labelCloud](https://github.com/ch-sa/labelCloud) *for labelling vehicles*
-* [PyTorch-Geometric](https://github.com/pyg-team/pytorch_geometric) **needed by the custom algprithm**
+* [PyTorch-Geometric](https://github.com/pyg-team/pytorch_geometric) **needed by the custom algorithm**
 
 # Auxiliary hardware
 * RIEGL

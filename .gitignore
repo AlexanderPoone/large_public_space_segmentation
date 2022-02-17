@@ -1,4 +1,5 @@
 dataset/
 train/
 val/
+custom_method/
 commands.txt
