@@ -10,7 +10,7 @@ In case you are wondering, I made the dataset myself. The points have only INTEN
 
 In this project, besides using the PAConv [1] model from the MMDetection3D library (the library was contrived by my alma mater CUHK), we propose a custom method by building a graph neural network (GNN) using k-nearest neighbour (KNN) graphs. An edge is present between two points if it is among its k nearest neighbours. It is inspired by PointNet++ [2] but is built from stratch, layer by layer, module by module. For the custom method, we also experimented with transformers. Both models are built with the help of graph-specific operators provided by the PyTorch-geometric extension library. [3]
 
-## Auxiliary software
+### Auxiliary software
 * MeshLab
 * CloudCompare
 * lastile
@@ -18,10 +18,10 @@ In this project, besides using the PAConv [1] model from the MMDetection3D libra
 <!-- * [labelCloud](https://github.com/ch-sa/labelCloud) *for labelling vehicles* -->
 * [PyTorch-Geometric](https://github.com/pyg-team/pytorch_geometric) **needed by the custom algorithm** [4]
 
-# Auxiliary hardware
+### Auxiliary hardware
 * RIEGL
 
-# References
+### References
 <!--
 1. Yan, Y., Mao, Y., & Li, B. (2018, October 6). *SECOND: Sparsely embedded convolutional detection*. MDPI. Retrieved February 17, 2022, from https://www.mdpi.com/1424-8220/18/10/3337
 2. Lang, A. H., Vora, S., Caesar, H., Zhou, L., Yang, J., & Beijbom, O. (2019, May 7). *PointPillars: Fast encoders for object detection from point clouds*. arXiv.org. Retrieved February 17, 2022, from https://arxiv.org/abs/1812.05784
