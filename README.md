@@ -1,19 +1,21 @@
-## Segmentation of Large LiDAR Cityscape Point Clouds
+## Segmentation of Large Public Spaces Point Clouds
 
 (Individial Project)
 
 ### Note: Due to the file size limit of GitHub, some of the resources or checkpoints can be found here: https://dord.mynetgear.com/pointcloudproject/
 
-The objective of this project is to perform segmentation in a real street LiDAR scene in Hong Kong. The segmentator should be invariant to partial occlusion, deformation, noises, and varying degrees of point density - all of which are ubiquitous caveats in LiDAR clouds.
+There are two parts (and hence datasets) of the project: outdoors and indoors.
 
-The dataset can be browsed **[here](https://dord.mynetgear.com:5001/static/potree/index.html)**. Click the **'Colour by classification'** button on the left to see the ground truth segmentation.
+For outdoors, the dataset can be browsed **[here](https://dord.mynetgear.com:5001/static/potree/index.html)**. Click the **'Colour by classification'** button on the left to see the ground truth segmentation.
 
 In case you are wondering, I made the dataset myself. The points have only INTENSITY values and no RGB values.
+
+For indoors, we use the S3DIS dataset, which is composed of coloured point clouds of rooms and corridors in different styles. 
 
 In this project, besides using the PAConv [1] model from the MMDetection3D library (the library was contrived by my alma mater CUHK), we propose a custom method by building a graph neural network (GNN) using k-nearest neighbour (KNN) graphs. An edge is present between two points if it is among its k nearest neighbours. It is inspired by PointNet++ [2] but is built from stratch, layer by layer, module by module. For the custom method, we also experimented with transformers. Both models are built with the help of graph-specific operators provided by the PyTorch-geometric extension library. [3]
 
 ### Auxiliary software
-* MeshLab
+* [MeshLab]
 * CloudCompare
 * lastile (for dataset tiling)
 * lasview & laslayers (for labelling point clouds)
