@@ -6,9 +6,7 @@
 
 There are two parts (and hence datasets) of the project: outdoors and indoors.
 
-For outdoors, the dataset can be browsed **[here](https://dord.mynetgear.com:5001/static/potree/index.html)**. Click the **'Colour by classification'** button on the left to see the ground truth segmentation.
-
-In case you are wondering, I made the dataset myself. The points have only INTENSITY values and no RGB values.
+For outdoors, the dataset can be browsed **[here](https://dord.mynetgear.com:5001/static/potree/index.html)**. Click the **'Colour by classification'** button on the left to see the ground truth segmentation. In case you are wondering, I made the dataset myself. The points have only INTENSITY values and no RGB values.
 
 For indoors, we use the S3DIS dataset, which is composed of coloured point clouds of rooms and corridors in different styles. 
 
