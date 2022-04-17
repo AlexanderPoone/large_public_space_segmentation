@@ -2,6 +2,8 @@
 
 (Individial Project)
 
+### Note: Due to the file size limit of GitHub, some of the resources or checkpoints can be found here: https://dord.mynetgear.com/pointcloudproject/
+
 The objective of this project is to perform segmentation in a real street LiDAR scene in Hong Kong. The segmentator should be invariant to partial occlusion, deformation, noises, and varying degrees of point density - all of which are ubiquitous caveats in LiDAR clouds.
 
 The dataset can be browsed **[here](https://dord.mynetgear.com:5001/static/potree/index.html)**. Click the **'Colour by classification'** button on the left to see the ground truth segmentation.
@@ -13,10 +15,12 @@ In this project, besides using the PAConv [1] model from the MMDetection3D libra
 ### Auxiliary software
 * MeshLab
 * CloudCompare
-* lastile
-* lasview (for labelling point clouds)
+* lastile (for dataset tiling)
+* lasview & laslayers (for labelling point clouds)
+* las2las & lasmerge (for dataset augmentation)
 <!-- * [labelCloud](https://github.com/ch-sa/labelCloud) *for labelling vehicles* -->
 * [PyTorch-Geometric](https://github.com/pyg-team/pytorch_geometric) **needed by the custom algorithm** [4]
+* Tensorboard (for logging and monitoring)
 
 ### Auxiliary hardware
 * RIEGL
