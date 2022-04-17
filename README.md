@@ -15,7 +15,7 @@ For indoors, we use the S3DIS dataset, which is composed of coloured point cloud
 In this project, besides using the PAConv [1] model from the MMDetection3D library (the library was contrived by my alma mater CUHK), we propose a custom method by building a graph neural network (GNN) using k-nearest neighbour (KNN) graphs. An edge is present between two points if it is among its k nearest neighbours. It is inspired by PointNet++ [2] but is built from stratch, layer by layer, module by module. For the custom method, we also experimented with transformers. Both models are built with the help of graph-specific operators provided by the PyTorch-geometric extension library. [3]
 
 ### Auxiliary software
-* [MeshLab]
+* MeshLab
 * CloudCompare
 * lastile (for dataset tiling)
 * lasview & laslayers (for labelling point clouds)
