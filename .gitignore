@@ -1,8 +1,10 @@
 data/
 dataset/
+research/
 train/
 val/
 custom_method/
+state_of_the_art_paconv/
 commands.txt
 *.docx
 *.ipynb
