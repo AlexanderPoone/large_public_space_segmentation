@@ -2,6 +2,8 @@
 
 (Individial Project)
 
+### Demo video: https://www.youtube.com/watch?v=2C6I07o-1y0
+
 ### Note: Due to the file size limit of GitHub, some of the resources or checkpoints can be found here: https://dord.mynetgear.com/pointcloudproject/
 
 There are two parts (and hence datasets) of the project: outdoors and indoors.
