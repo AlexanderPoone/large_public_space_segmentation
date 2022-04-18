@@ -1,6 +1,6 @@
 '''
 Segmentation by transformers
-2022-03-15
+Alex Poon 2022-03-15
 
 PyTorch (CUDA version) is required.
 
